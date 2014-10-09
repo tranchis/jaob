@@ -19,36 +19,12 @@
  */
 package com.yoshtec.owl.cf;
 
-import java.lang.reflect.AnnotatedElement;
-import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.lang.reflect.ParameterizedType;
-import java.lang.reflect.Type;
 import java.net.URI;
-import java.util.ArrayList;
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
 import java.util.Set;
 
-import javax.xml.bind.annotation.adapters.XmlAdapter;
-import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import com.yoshtec.owl.Const;
 import com.yoshtec.owl.PropertyAccessType;
-import com.yoshtec.owl.XsdType;
-import com.yoshtec.owl.XsdTypeMapper;
-import com.yoshtec.owl.annotations.OwlClass;
-import com.yoshtec.owl.annotations.OwlDataType;
-import com.yoshtec.owl.annotations.OwlDataTypes;
-import com.yoshtec.owl.annotations.dprop.OwlFunctionalDataProperty;
-import com.yoshtec.owl.annotations.oprop.OwlFunctionalObjectProperty;
 /**
  * This Class helps to access annotated Properties of 
  * Java Beans and link the concepts to the OWL world.

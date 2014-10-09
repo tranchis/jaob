@@ -20,7 +20,6 @@
 package com.yoshtec.owl.cf;
 
 import java.lang.reflect.AnnotatedElement;
-import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.ParameterizedType;
